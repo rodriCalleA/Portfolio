@@ -10,7 +10,7 @@ module.exports = {
     }),
   ],
 
-  base: 'https://github.com/rodriCalleA/Portfolio',
+  base: 'https://rodricallea.github.io/Portfolio/',
 
   build: {
     outDir: '../dist',
