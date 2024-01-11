@@ -1,0 +1,77 @@
+#hero {
+  background: rgb(9,76,121);
+  background: linear-gradient(180deg, rgba(9,76,121,1) 38%, var(--bs-primary) 100%);
+
+  // target the first row
+  .container > .row {
+    @include media($bp-lg) {
+      height: min(95vh, 800px);
+    }
+  }
+
+  section {
+    color: white;
+    h1 {
+      @include font-secondary;
+      font-size: 3.5rem;
+      margin-bottom: 0.8rem;
+      line-height: 1;
+
+    }
+
+    p {
+      font-size: 1.5rem;
+      @include font-primary;
+
+      span {
+        color: rgba(255, 255, 255, 0.80);
+      }
+    }
+
+    .social-links {
+      width: 50%;
+      min-width: 400px;
+      text-align: left;
+
+      a {
+        text-decoration: none;
+
+        i {
+          font-size: 2rem;
+          @include transition();
+          color: #ffffff;
+
+          &:hover {
+            color: var(--bs-accent);
+          }
+        }
+      }
+    }
+  }
+
+  .img-container {
+    overflow: hidden;
+    min-width: 16rem;
+    width: 80%;
+    aspect-ratio: 1;
+    position: relative;
+    @include mx-auto;
+    max-width: 400px;
+    margin-top: 3rem;
+    @include media($bp-lg) {
+      max-width: none;
+      margin-top: 0;
+    }
+    border-radius: 50%;
+    border: solid 1rem rgba(#000, .2); 
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      //object-fit: cover;
+      width: 100%;
+      height: auto;
+    }
+  }
+}

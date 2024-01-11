@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0564bd" />
+    <meta name="author" content="Ahmed Zougari" />
+    <link rel="icon" type="image/png" href="./img/favicon.png" />
+    <meta
+      name="keywords"
+      content="ahmed, zougari, zougari47, ibnelkhayat, developer, javascript, marrakech, freelancer, website, programmer, site, ahmedzougari"
+    />
+    <meta
+      name="description"
+      content="I'm a Frontend Developer based in Morocco who is passionate about delivering value to businesses through technology. I love the challenge of finding creative solutions to problems, and I enjoy collaborating with teams to achieve great results."
+    />
+    <meta
+      name="google-site-verification"
+      content="PBNvZp4y0C4ul3V64DmyjKb3EHKD4F9QEAv9tsgH4jE"
+    />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-F3SK5CL6LE"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'G-F3SK5CL6LE')
+    </script>
+    <title>Rodrigo de la Calle</title>
+  </head>
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#toggleMobileMenu"
+    data-bs-offset="0"
+    tabindex="0"
+  >
+    <!-- ==== Header ==== -->
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-light py-3" id="header">
+        <div class="container">
+          <a class="navbar-brand" href="/">
+            <img src="./img/logo.svg" alt="logo" />
+          </a>
+
+          <button id="theme-btn" class="align-self-center ms-auto me-3">
+            <i class="bi bi-moon-fill"></i>
+            <i class="bi bi-brightness-high-fill"></i>
+          </button>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#toggleMobileMenu"
+            aria-controls="toggleMobileMenu"
+            aria-expanded="false"
+            aria-table="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="toggleMobileMenu">
+            <ul class="navbar-nav ms-lg-auto">
+              <li class="nav-item">
+                <a href="#hero" aria-current="page" class="nav-link active"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">Sobre mí</a>
+              </li>
+              <li class="nav-item">
+                <a href="#portfolio" class="nav-link">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- ==== End Header ==== -->
+
+    <div id="root">
+      <!-- ==== Hero ==== -->
+      <div id="hero">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-6 mt-lg-0 d-grid align-content-center">
+              <section
+                class="text-center text-lg-start"
+                data-aos="zoom-in"
+                data-aos-delay="1000"
+                data-aos-duration="1000"
+              >
+                <p>Hola! 👋 mi nombre es</p>
+                <h1>Rodrigo de la Calle</h1>
+                <p><span id="headline"></span></p>
+                <div class="social-links mx-auto mx-lg-0">
+                  <div class="row">
+                    <div class="col-2">
+                      <a href="mailto:rodricalle@usal.es" target="_blank">
+                        <i class="bi bi-envelope-fill"></i>
+                      </a>
+                    </div>
+                    <div class="col-2">
+                      <a
+                        href="https://www.linkedin.com/in/rodrigo-de-la-calle-alonso-5a4985263"
+                        target="_blank"
+                      >
+                        <i class="bi bi-linkedin"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="col-12 col-lg-6 d-grid align-content-center">
+              <div
+                class="img-container"
+                id="img-wrapper"
+                data-aos="fade-left"
+                data-aos-duration="1500"
+                data-aos-delay="2000"
+              >
+                  <img
+                    src="./img/rodrigo.jpg"
+                    crossorigin=""
+                    data-sampler="simplePlaneTexture"
+                    width="350"
+                    height="350"
+                    alt="Ahmed Zougari"
+                  />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ==== End Hero ==== -->
+
+      <main>
+        <!-- ==== About ==== -->
+                
+        <div id="about">
+          <div class="container">
+                <section
+                  id="about_section"
+                  class="my-4 w-full"
+                  data-aos="fade-right"
+                  data-aos-mirror="true"
+                  data-aos-duration="1500"
+                >
+                <div class="card w-full h-full">
+                  <h1>SOBRE MÍ</h1>
+                  <p>
+                    Soy un recién graduado de Ingeniería Informática (2023),
+                    actualmente estoy terminando mis estudios de postgrado
+                    en Madrid y busco comenzar mi vida laboral. <br />
+                  </p>
+                  <p>
+                    Desde pequeño he sentido curiosidad la tecnología tanto
+                    antigua (teniendo en cuenta que ya nací con
+                    Windows XP, internet y los disquetes casi obsoletos) como moderna.
+                    Comencé de forma autodidacta y posteriormente asistiendo
+                    a cursos de robótica educativa e impresión 3D hasta el día
+                    de hoy.
+                  </p>
+                  <p>
+                    Actualmente me estoy especializando en Ingeniería Web,
+                    donde mi principal interés es el Front End en todas sus
+                    formas. Me encantan los nuevos retos y mantenerme al día
+                    de las novedades del mercado.
+                  </p>
+                </div>
+                </section>
+                <section
+                  id="skills_section"
+                  class="mb-5"
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                >
+                  <h1>HABILIDADES</h1>
+                  <div class="row">
+                    <div class="col-6 col-md-4 skill-item">
+                      <img src="./img/stack-icons/swift.svg" alt="Swift" />
+                      <span>Swift</span>
+                    </div>
+                    <div class="col-6 col-md-4 skill-item">
+                      <img src="./img/stack-icons/android.svg" alt="Android" />
+                      <span>Android</span>
+                    </div>
+                    <div class="col-6 col-md-4 skill-item">
+                      <img src="./img/stack-icons/csharp.svg" alt="C#" />
+                      <span>C#</span>
+                    </div>
+                    
+                    <div class="col-6 col-md-4 skill-item">
+                      <img src="./img/stack-icons/angular.svg" alt="Angular" />
+                      <span>Angular</span>
+                    </div>
+                    <div class="col-6 col-md-4 skill-item">
+                      <img src="./img/stack-icons/vue.svg" alt="Vue" />
+                      <span>Vue</span>
+                    </div>
+                    <div class="col-6 col-md-4 skill-item">
+                      <img src="./img/stack-icons/node.svg" alt="node" />
+                      <span>Node</span>
+                    </div>
+                    <div class="col-6 col-md-4 skill-item">
+                      <img src="./img/stack-icons/html.svg" alt="html" />
+                      <span>HTML</span>
+                    </div>
+                    <div class="col-6 col-md-4 skill-item">
+                      <img src="./img/stack-icons/css.svg" alt="css" />
+                      <span>CSS</span>
+                    </div>
+                    <div class="col-6 col-md-4 skill-item">
+                      <img
+                        src="./img/stack-icons/bootstrap.svg"
+                        alt="bootstrap"
+                      />
+                      <span>Bootstrap</span>
+                    </div>
+                    <div class="col-6 col-md-4 skill-item">
+                      <img src="./img/stack-icons/java.svg" alt="Java" />
+                      <span>Java</span>
+                    </div>
+                    <div class="col-6 col-md-4 skill-item">
+                      <img
+                        src="./img/stack-icons/javascript.svg"
+                        alt="javascript"
+                      />
+                      <span>JavaScript</span>
+                    </div>
+                    <div class="col-6 col-md-4 skill-item">
+                      <img
+                        src="./img/stack-icons/typescript.svg"
+                        alt="typescript"
+                      />
+                      <span>Typescript</span>
+                    </div>
+                    <div class="col-6 col-md-4 skill-item">
+                      <img src="./img/stack-icons/firebase.svg" alt="firebase" />
+                      <span>Firebase</span>
+                    </div>
+                    <div class="col-6 col-md-4 skill-item">
+                      <img src="./img/stack-icons/git.svg" alt="git/github" />
+                      <span>Git / GitHub</span>
+                    </div>
+                    <div class="col-6 col-md-4 skill-item">
+                      <img src="./img/stack-icons/arduino.svg" alt="arduino" />
+                      <span>Arduino</span>
+                    </div>
+                  </div>
+                </section>
+          </div>
+        </div>
+        <!-- ==== end About ==== -->
+
+        <!-- ==== Portfolio === -->
+        <section id="portfolio" class="">
+          <div class="container">
+            <h1 class="mb-md-5">PROYECTOS</h1>
+            <div class="row row-cols-1 row-cols-lg-2 g-3">
+
+              <div>
+                <div
+                  class="project"
+                  data-aos="flip-up"
+                  data-aos-duration="1000"
+                >
+                  <div class="p-3">
+                    <img src="./img/portfolio/TimeCheck.png" alt="quiz app" />
+                  </div>
+                  <div class="details">
+                    <div
+                      class="position-absolute top-50 start-50 translate-middle bg-accen w-100"
+                    >
+                      <p class="text-center">TimeCheck, es una solución software para el control horario en empresas de construcción, actualmente en uso</p>
+                      <div class="links_project">
+                        <a
+                          href="https://youtu.be/FkYFPw0A97U"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          title="Vídeo de Demostración"
+                        >
+                          <i class="bi bi-eye-fill"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="technology">
+                      <div class="row">
+                        <div class="col d-flex justify-content-center">
+                          <img
+                            src="./img/stack-icons/vue.svg"
+                            alt="Vue"
+                            title="Vue"
+                          />
+                        </div>
+                        <div class="col d-flex justify-content-center">
+                          <img
+                            src="./img/stack-icons/firebase.svg"
+                            alt="Firebase"
+                            title="Firebase"
+                          />
+                        </div>
+                        <div class="col d-flex justify-content-center">
+                          <img
+                            src="./img/stack-icons/arduino.svg"
+                            alt="Arduino"
+                            title="Arduino"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="h-full">
+                <div
+                  class="project"
+                  data-aos="flip-up"
+                  data-aos-duration="1000"
+                >
+                  <div style="display: flex; -ms-flex-align: center; height: 100%;" class="p-3">
+                    <img
+                      src="./img/portfolio/InstantFood.png"
+                      alt="space tourism"
+                    />
+                  </div>
+                  <div class="details">
+                    <div
+                      class="position-absolute top-50 start-50 translate-middle bg-accen w-100"
+                    >
+                      <p class="text-center">
+                        Interfaz para una tecnología imaginária con un modelo de reconocimiento de imágenes resnet 50.
+                      </p>
+                      <div class="links_project">
+                        <a
+                          href="https://youtu.be/-hNRlvIaZtU?si=Oaf9wHAunCsfVMy4"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          title="Vídeo de Demostración"
+                        >
+                          <i class="bi bi-eye-fill"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="technology">
+                      <div class="row">
+                        <div class="col d-flex justify-content-center">
+                          <img
+                            src="./img/stack-icons/swift.svg"
+                            alt="Swift"
+                            title="Swift"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div
+                  class="project"
+                  data-aos="flip-up"
+                  data-aos-duration="1000"
+                >
+                  <img
+                    src="./img/portfolio/SpaceInvaders.png"
+                    alt="Space Invaders"
+                  />
+                  <div class="details">
+                    <div
+                      class="position-absolute top-50 start-50 translate-middle bg-accen w-100"
+                    >
+                      <p class="text-center">
+                        Juego web tipo "Espace Invaders" con llamadas ajax a una api externa.
+                      </p>
+                      <div class="links_project">
+                        <a
+                          href="https://github.com/rodriCalleA/SpaceInvaders"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          title="source code"
+                        >
+                          <i class="bi bi-github"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="technology">
+                      <div class="row">
+                        <div class="col d-flex justify-content-center">
+                          <img
+                            src="./img/stack-icons/typescript.svg"
+                            alt="typescript"
+                            title="typescript"
+                          />
+                        </div>
+                        <div class="col d-flex justify-content-center">
+                          <img
+                            src="./img/stack-icons/angular.svg"
+                            alt="Angular"
+                            title="Angular"
+                          />
+                        </div>
+                        <div class="col d-flex justify-content-center">
+                          <img
+                            src="./img/stack-icons/node.svg"
+                            alt="Node"
+                            title="Node"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div
+                  class="project"
+                  data-aos="flip-up"
+                  data-aos-duration="1000"
+                >
+                  <div style="display: flex; -ms-flex-align: center; height: 100%;" class="p-3">
+                      <img
+                      src="./img/portfolio/DailyTrivia.png"
+                      alt="twitter bot"
+                    />
+                  </div>
+                 
+                  <div class="details">
+                    <div
+                      class="position-absolute top-50 start-50 translate-middle bg-accen w-100"
+                    >
+                      <p class="text-center">
+                        Juego Android de preguntas trivial diarias.
+                      </p>
+                      <div class="links_project">
+                        <a
+                          href="https://github.com/rodriCalleA/DailyTrivia"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          title="source code"
+                        >
+                          <i class="bi bi-github"></i>
+                        </a>
+                        <a
+                          href="https://youtu.be/Hg-JeNQ1pY8?si=BOkdz9jWE3vwFi4A"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          title="Vídeo de Demostración"
+                        >
+                          <i class="bi bi-eye-fill"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="technology">
+                      <div class="row">
+                        <div class="col d-flex justify-content-center">
+                          <img
+                            src="./img/stack-icons/android.svg"
+                            alt="Android"
+                            title="Android"
+                          />
+                        </div>
+                        <div class="col d-flex justify-content-center">
+                          <img
+                            src="./img/stack-icons/firebase.svg"
+                            alt="Firebase"
+                            title="Firebase"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              
+            </div>
+          </div>
+        </section>
+        <!-- ==== End Portfolio === -->
+
+        <!-- === Contact ====  -->
+        <div id="contact">
+          <section>
+            <div class="container">
+              <h1>CONTACTA CONMIGO</h1>
+              <div class="row flex justify-content-center flex-wrap">
+                <div
+                  class="hello mb-4 mb-lg-0 col-12 col-lg-4 d-grid align-content-center"
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                >
+
+                  <div class="more_info">
+                    <p>
+                      <i class="bi bi-geo-alt text-accent me-2 fs-5"></i>
+                      Madrid, Spain
+                    </p>
+
+                    <p>
+                      <i class="bi bi-envelope-fill text-accent me-2 fs-5"></i>
+                      rodricalle@usal.es
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <!-- ==== End Contact ====  -->
+      </main>
+
+      <!-- ==== Start footer ====  -->
+      <footer id="footer">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-lg-2">
+            <div style="display: flex;" class="flex align-content-center flex-wrap">
+              Hecho con ❤️, Por&nbsp;<span class="author"> Rodrigo de la Calle</span>,
+            </div>
+
+            <div class="text-center text-lg-end">
+              <a href="https://www.linkedin.com/in/rodrigo-de-la-calle-alonso-5a4985263" target="_blank">
+                <i class="bi bi-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- ==== End footer ====  -->
+    </div>
+
+    <script type="module" src="./js/main.js" def></script>
+  </body>
+</html>
