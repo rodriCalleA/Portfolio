@@ -12,7 +12,7 @@ const themes = {
 
   dark: {
     primary: '#22222b',
-    secondary: '#a2a1a6',
+    secondary: '#c6c6c6',
     accent: '#0564bd',
     primaryRGB: '34, 34, 43',
     secondaryRGB: '162,161,166',

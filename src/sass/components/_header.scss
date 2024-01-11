@@ -19,6 +19,15 @@ header #header {
     }
   }
 
+  .navbar-toggler {
+    color: var(--bs-secondary);
+    border-color: var(--bs-secondary);
+    span{
+      accent-color: var(--bs-secondary);
+      color: var(--bs-secondary);
+    }
+  }
+
   #toggleMobileMenu {
     @include media($bp-lg) {
       max-width: fit-content;

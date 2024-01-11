@@ -10,19 +10,25 @@
   }
 
   section {
-    color: white;
+    color: #ffffff;
+
     h1 {
       @include font-secondary;
-      font-size: 3.5rem;
+      font-size: 3rem;
+      @include media($bp-lg) {
+        font-size: 3.5rem;
+      }
       margin-bottom: 0.8rem;
       line-height: 1;
 
     }
 
     p {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       @include font-primary;
-
+      @include media($bp-lg) {
+        font-size: 1.5rem;
+      }
       span {
         color: rgba(255, 255, 255, 0.80);
       }
@@ -32,6 +38,14 @@
       width: 50%;
       min-width: 400px;
       text-align: left;
+
+      .row{
+        justify-content: center;
+
+        @include media($bp-lg) {
+          justify-content: start;
+        }
+      }
 
       a {
         text-decoration: none;

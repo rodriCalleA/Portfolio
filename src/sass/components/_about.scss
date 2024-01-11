@@ -41,6 +41,13 @@
       @include h1;
     }
 
+    .skill-item{
+      justify-content: center;
+      @include media($bp-lg) {
+        justify-content: start;
+      }
+    }
+
     img {
       height: 2rem;
       @include transition;
