@@ -12,9 +12,7 @@
   section {
     color: #ffffff;
     text-align: center;
-    @include media($bp-md) {
-      overflow: hidden;
-    }
+    overflow: hidden;
     h1 {
       @include font-secondary;
       font-size: 3rem;
