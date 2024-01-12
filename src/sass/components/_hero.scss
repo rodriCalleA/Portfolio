@@ -12,9 +12,8 @@
   section {
     color: #ffffff;
     text-align: center;
-    width: 97%;
     @include media($bp-md) {
-      width: 100%;
+      overflow: hidden;
     }
     h1 {
       @include font-secondary;
